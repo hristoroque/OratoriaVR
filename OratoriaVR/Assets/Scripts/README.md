@@ -1,1 +1,0 @@
-En esta carpeta estarán los scripts del juego
