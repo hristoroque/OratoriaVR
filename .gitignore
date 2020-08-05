@@ -62,4 +62,7 @@ crashlytics-build.properties
 sdk/
 OratoriaVR/Assets/SpeechSDK/
 OratoriaVR/Assets/SpeechSDK.meta
+#ignorar auditorio kristian
+OratoriaVR/Assets/auditorio.fbx.meta
+OratoriaVR/Assets/auditorio.fbx
 
