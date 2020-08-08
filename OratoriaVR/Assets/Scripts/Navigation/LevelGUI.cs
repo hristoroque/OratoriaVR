@@ -9,6 +9,7 @@ public class LevelGUI : MonoBehaviour
     public Image levelImage;
     private Color onHoverColor = new Color(0.1f, 0.4f, 0.3f);
     private Color onClickColor = new Color(0.1f, 0.5f, 0.3f);
+    private LevelsController levelsController;
    
     private Color normalColor;
 
@@ -17,6 +18,7 @@ public class LevelGUI : MonoBehaviour
         Debug.Log("Inicializando el elemento");
         levelImage = GetComponent<Image>();
         normalColor = levelImage.color;
+        levelsController = GameObject.FindGameObjectWithTag("Controllers").GetComponent<LevelsController>();
     }
     public void OnHover()
     {
@@ -30,8 +32,7 @@ public class LevelGUI : MonoBehaviour
     }
     public void OnClickDown()
     {
-        Debug.Log("Clicking the event");
-        levelImage.color = onClickColor;
+        levelsController.GoToLevel(null);
     }
     public void OnClickUp()
     {
