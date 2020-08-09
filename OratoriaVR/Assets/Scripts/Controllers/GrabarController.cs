@@ -18,11 +18,11 @@ using UnityEngine.Android;
 using UnityEngine.iOS;
 using System.Collections;
 #endif
-
+using TMPro;
 public class GrabarController : MonoBehaviour
 {
     private bool micPermissionGranted = false;
-    public Text outputText;
+    public TextMeshProUGUI outputText;
     public Button recoButton;
     SpeechRecognizer recognizer;
     SpeechConfig config;
@@ -224,7 +224,7 @@ public class GrabarController : MonoBehaviour
 
         if (Microphone.IsRecording(Microphone.devices[0]) && recognitionStarted == true)
         {
-            GameObject.Find("MyButton").GetComponentInChildren<Text>().text = "Stop";
+            GameObject.Find("MyButton").GetComponentInChildren<TextMeshProUGUI>().text = "Stop";
             int pos = Microphone.GetPosition(Microphone.devices[0]);
             int diff = pos - lastSample;
 
@@ -243,7 +243,7 @@ public class GrabarController : MonoBehaviour
         }
         else if (!Microphone.IsRecording(Microphone.devices[0]) && recognitionStarted == false)
         {
-            GameObject.Find("MyButton").GetComponentInChildren<Text>().text = "Start";
+            GameObject.Find("MyButton").GetComponentInChildren<TextMeshProUGUI>().text = "Start";
          
         }
     }
