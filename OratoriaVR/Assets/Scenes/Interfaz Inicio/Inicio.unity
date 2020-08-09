@@ -3599,7 +3599,7 @@ GameObject:
   - component: {fileID: 1924618276}
   - component: {fileID: 1924618279}
   m_Layer: 5
-  m_Name: Grabar
+  m_Name: GrabarVozATexto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3625,7 +3625,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -174}
   m_SizeDelta: {x: 1880, y: 1160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924618276
@@ -3699,6 +3699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outputText: {fileID: 1609345729}
+  outputTextCompleto: {fileID: 1962019215}
   recoButton: {fileID: 1322766423}
 --- !u!1 &1962019213
 GameObject:

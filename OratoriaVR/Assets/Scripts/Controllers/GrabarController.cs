@@ -23,6 +23,7 @@ public class GrabarController : MonoBehaviour
 {
     private bool micPermissionGranted = false;
     public TextMeshProUGUI outputText;
+    public TextMeshProUGUI outputTextCompleto;
     public Button recoButton;
     SpeechRecognizer recognizer;
     SpeechConfig config;
@@ -104,8 +105,7 @@ public class GrabarController : MonoBehaviour
             {
                 recognitionStarted = false;
                 Debug.Log("RecognitionStarted: " + recognitionStarted.ToString());
-                outputText.text = grabacionCompleta.ToString();
-
+                outputTextCompleto.text = grabacionCompleta.ToString();
             }
 
 
@@ -126,6 +126,7 @@ public class GrabarController : MonoBehaviour
                 recognitionStarted = true;
                 grabacionCompleta.Clear();
                 message = "New Text";
+                outputTextCompleto.text = "Nueva Grabacion";
 
                 Debug.Log("RecognitionStarted: " + recognitionStarted.ToString());
 
