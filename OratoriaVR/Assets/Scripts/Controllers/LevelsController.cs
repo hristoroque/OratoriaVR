@@ -6,13 +6,14 @@ public class LevelsController : Controller
 {
     private PerfilController perfilController;
     private PlayController playController;
-
+    private SesionController sesionController;
     void Awake()
     {
         base.Awake();
         perfilController = GetComponent<PerfilController>();
         playController = GetComponent<PlayController>();
-    }
+        sesionController = GetComponent<SesionController>();
+}
     public void GoToPerfilController()
     {
         Close();
@@ -22,6 +23,12 @@ public class LevelsController : Controller
     {
         Debug.Log("Going to Level 1");
         Close();
-        playController.Show();
+        //playController.Show();
+        sesionController.Show();    
+    }
+    public void GoToSesionController()
+    {
+        Close();
+        sesionController.Show();
     }
 }
