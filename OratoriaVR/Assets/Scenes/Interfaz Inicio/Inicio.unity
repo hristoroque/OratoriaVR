@@ -2392,6 +2392,57 @@ PrefabInstance:
       propertyPath: m_firstOverflowCharacterIndex
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654707217850971915, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7971661785130033816, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7971661785130033816, guid: eb6ca1d018e7906469ab81afa1f6d780,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb2bec4507a79e742919f13451155ef8,
+        type: 3}
     - target: {fileID: 9214135862961986301, guid: eb6ca1d018e7906469ab81afa1f6d780,
         type: 3}
       propertyPath: m_Name
@@ -3688,7 +3739,7 @@ PrefabInstance:
     - target: {fileID: 4602784582696398468, guid: 1b3987b55808dd446835f9f09c712ca8,
         type: 3}
       propertyPath: m_text
-      value: OratorioVR
+      value: OratoviaVR
       objectReference: {fileID: 0}
     - target: {fileID: 4602784582696398468, guid: 1b3987b55808dd446835f9f09c712ca8,
         type: 3}
